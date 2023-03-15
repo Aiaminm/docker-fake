@@ -3,7 +3,7 @@ EXPOSE 8080
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN yum update -y && yum install -y qbittorrent-nox screen curl wget 
+RUN dnf update  && yum install  qbittorrent-nox screen curl wget 
 
 
 
