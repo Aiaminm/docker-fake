@@ -1,5 +1,10 @@
 apt-fast update -y
-apt-fast install sudo
+
+apt-fast install software-properties-common nano sudo wget curl screen -y 
+add-apt-repository ppa:qbittorrent-team/qbittorrent-stable && apt-fast update 
+apt-fast install qbittorrent-nox -y
+
+
 
 # Add cloudflare gpg key
 sudo mkdir -p --mode=0755 /usr/share/keyrings
