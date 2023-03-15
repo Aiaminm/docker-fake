@@ -1,5 +1,5 @@
 FROM snowstep/apt-fast:jammy
-EXPOSE 8080
+EXPOSE 80
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -11,5 +11,5 @@ apt-fast install qbittorrent-nox -y
 
 
 ENTRYPOINT ["qbittorrent-nox"]
-CMD ["--webui-port=8080"]
+CMD ["--webui-port=80"]
 
