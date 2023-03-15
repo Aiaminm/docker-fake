@@ -1,4 +1,5 @@
 apt-fast update -y
+apt-fast install sudo
 
 # Add cloudflare gpg key
 sudo mkdir -p --mode=0755 /usr/share/keyrings
