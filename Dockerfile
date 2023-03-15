@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ubuntu:22.04
 EXPOSE 8080
 
 ENV DEBIAN_FRONTEND noninteractive
