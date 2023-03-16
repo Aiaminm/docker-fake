@@ -7,5 +7,6 @@ apt-fast install qbittorrent-nox -y
 
 
 
+mkdir  /root/.config/
 mkdir /root/.config/qBittorrent/
 cp /qbit.conf /root/.config/qBittorrent/qBittorrent.conf
