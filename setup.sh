@@ -1,2 +1,2 @@
-qbittorrent-nox -d --webui-port=80 
+qbittorrent-nox  --webui-port=80 
 
