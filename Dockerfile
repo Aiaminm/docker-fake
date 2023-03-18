@@ -1,8 +1,7 @@
 FROM snowstep/apt-fast:jammy
 EXPOSE 80
-COPY ./installstep.sh ./
-COPY ./setup.sh ./
-COPY ./qbit.conf ./
+COPY ./* ./
+
 
 ENV DEBIAN_FRONTEND noninteractive
 
