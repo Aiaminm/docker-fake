@@ -2,6 +2,7 @@ apt-fast update -y
 
 apt-fast install software-properties-common nano sudo wget curl screen nodejs  -y 
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable 
+apt-fast install npm -y
 apt-fast update -y
 apt-fast install qbittorrent-nox -y
 
