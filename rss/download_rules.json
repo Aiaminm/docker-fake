@@ -1,0 +1,21 @@
+{
+    "番组 萌番": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://bangumi.moe/rss/latest"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "19 Mar 2023 09:01:21 +0000",
+        "mustContain": "",
+        "mustNotContain": "国漫",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "useRegex": false
+    }
+}
