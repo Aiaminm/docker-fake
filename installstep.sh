@@ -1,9 +1,11 @@
 apt-fast update -y
 
-apt-fast install software-properties-common nano sudo wget curl screen  -y 
+apt-fast install software-properties-common nano sudo wget curl screen nodejs  -y 
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable 
 apt-fast update -y
 apt-fast install qbittorrent-nox -y
+
+npm install https://github.com/Aiaminm/fleek-storage-js
 
 
 
