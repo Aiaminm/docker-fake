@@ -14,3 +14,4 @@ cp -r /rss /root/.config/qBittorrent/
 
 cd /root/
 npm install https://github.com/Aiaminm/fleek-storage-js
+cp /fleekupload.js /root/
