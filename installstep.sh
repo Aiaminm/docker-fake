@@ -6,11 +6,11 @@ apt-fast install npm -y
 apt-fast update -y
 apt-fast install qbittorrent-nox -y
 
-npm install https://github.com/Aiaminm/fleek-storage-js
-
-
 
 mkdir  /root/.config/
 mkdir /root/.config/qBittorrent/
 cp /qbit.conf /root/.config/qBittorrent/qBittorrent.conf
 cp -r /rss /root/.config/qBittorrent/
+
+cd /root/
+npm install https://github.com/Aiaminm/fleek-storage-js
