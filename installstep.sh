@@ -1,3 +1,5 @@
+$LANG
+
 apt-fast update -y
 
 apt-fast install software-properties-common nano sudo wget curl screen nodejs  -y 
