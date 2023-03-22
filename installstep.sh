@@ -1,6 +1,6 @@
 apt-fast update -y
 
-apt-fast install -y language-pack-zh-hans language-pack-zh-hans-base language-pack-zh-hant language-pack-zh-hant-base 
+apt-fast install -y language-pack-zh-hans language-pack-zh-hans-base language-pack-zh-hant language-pack-zh-hant-base language-pack-ja
 
 
 apt-fast install software-properties-common nano sudo wget curl screen nodejs  -y 
