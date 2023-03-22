@@ -5,7 +5,6 @@ COPY ./rss/ ./rss
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN $LANG
 
 RUN bash installstep.sh
 
