@@ -73,7 +73,7 @@ async function goUp(forpath){
   const upinput = {
       apiKey: process.env.fleek_api_token,
       apiSecret: process.env.fleek_api_secret,
-      key: `upload1/`+path.basename(forpath),
+      key: `upload4/`+path.basename(forpath),
       stream: stream,
     };
     console.log('开始上传 '+forpath)
