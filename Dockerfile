@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM wangweight/ubuntu-zh:22.04
 EXPOSE 80
 COPY ./* ./
 COPY ./rss/ ./rss
