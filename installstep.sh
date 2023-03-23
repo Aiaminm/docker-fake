@@ -1,11 +1,12 @@
 apt-fast update -y
 
+apt install software-properties-common -y
+
+
 apt-fast install -y language-pack-zh-hans language-pack-zh-hans-base language-pack-zh-hant language-pack-zh-hant-base language-pack-ja
+apt-fast install nano sudo wget curl screen nodejs npm  -y 
 
-
-apt-fast install software-properties-common nano sudo wget curl screen nodejs  -y 
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable 
-apt-fast install npm -y
 apt-fast update -y
 apt-fast install qbittorrent-nox -y
 
