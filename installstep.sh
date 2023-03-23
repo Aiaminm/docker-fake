@@ -1,4 +1,4 @@
-apt-fast update -y
+apt update -y
 
 apt install software-properties-common -y
 add-apt-repository ppa:apt-fast/stable
