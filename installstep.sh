@@ -1,20 +1,18 @@
 apt update -y
 
 apt install software-properties-common -y
-add-apt-repository ppa:apt-fast/stable
-apt-get update
-apt-get -y install apt-fast
 
-apt-fast install -y language-pack-zh-hans language-pack-zh-hans-base language-pack-zh-hant language-pack-zh-hant-base language-pack-ja
-apt-fast install nano sudo wget curl screen   -y 
+
+apt install -y language-pack-zh-hans language-pack-zh-hans-base language-pack-zh-hant language-pack-zh-hant-base language-pack-ja
+apt install nano sudo wget curl screen   -y 
 
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable 
-apt-fast update -y
-apt-fast install qbittorrent-nox -y
+apt update -y
+apt install qbittorrent-nox -y
 
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
-apt-fast update
-apt-fast install -y nodejs npm
+apt update
+apt install -y nodejs
 
 
 mkdir  /root/.config/
