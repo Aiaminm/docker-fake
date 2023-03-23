@@ -1,9 +1,20 @@
-FROM wangweight/ubuntu-zh:22.04
+FROM ubuntu:22.04
 EXPOSE 80
 COPY ./* ./
 COPY ./rss/ ./rss
 
 ENV DEBIAN_FRONTEND noninteractive
+
+RUN set -eux && \
+    apt-get update && \
+    apt-get install -y locales tzdata xfonts-wqy && \
+    locale-gen zh_CN.UTF-8 && \
+    update-locale LANG=zh_CN.UTF-8 LANGUAGE=zh_CN.UTF-8 LC_ALL=zh_CN.UTF-8 && \
+    ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+    dpkg-reconfigure --frontend noninteractive tzdata && \
+
+
+ENV LANG=zh_CN.UTF-8 LANGUAGE=zh_CN.UTF-8 LC_ALL=zh_CN.UTF-8
 
 RUN bash installstep.sh
 
