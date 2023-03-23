@@ -13,7 +13,8 @@ apt-fast update -y
 apt-fast install qbittorrent-nox -y
 
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
-apt-fast install -y nodejs
+apt-fast update
+apt-fast install -y nodejs npm
 
 
 mkdir  /root/.config/
