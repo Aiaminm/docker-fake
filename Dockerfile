@@ -16,6 +16,8 @@ RUN set -eux && \
 
 ENV LANG=zh_CN.UTF-8 LANGUAGE=zh_CN.UTF-8 LC_ALL=zh_CN.UTF-8
 
+RUN apt install supervisor
+
 RUN bash installstep.sh
 
 RUN cd /root/ && npm install https://github.com/Aiaminm/fleek-storage-js
