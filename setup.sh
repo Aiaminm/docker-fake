@@ -1,2 +1,3 @@
-qbittorrent-nox 
+supervisord -c /supervisord.conf
 
+# qbittorrent-nox 
