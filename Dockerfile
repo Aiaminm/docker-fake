@@ -22,6 +22,7 @@ RUN bash installstep.sh
 
 RUN cd /root/ && npm install https://github.com/Aiaminm/fleek-storage-js
 
+WORKDIR /
 # ENTRYPOINT ["bash"]
 CMD ["supervisord -c -n  ./supervisord.conf"]
 
