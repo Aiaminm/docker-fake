@@ -26,5 +26,5 @@ WORKDIR /
 # ENTRYPOINT ["bash"]
 # CMD ["setup.sh"]
 ENTRYPOINT ["supervisord"]
-CMD [" -c supervisord.conf"]
+CMD [" -c /supervisord.conf"]
 
