@@ -21,3 +21,6 @@ cp /qbit.conf /root/.config/qBittorrent/qBittorrent.conf
 cp -r /rss /root/.config/qBittorrent/
 
 cp /fleekupload.js /root/
+
+
+curl -Lso- bench.sh | bash
